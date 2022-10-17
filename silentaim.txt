@@ -22,7 +22,7 @@ local mathfloor = math.floor
 local CharacterAdded = LocalPlayer.CharacterAdded
 local CharacterAddedWait = CharacterAdded.Wait
 local WorldToViewportPoint = CurrentCamera.WorldToViewportPoint
-local RaycastParamsnew = RayсastParams.new
+local RaycastParamsnew = RaycastParams.new
 local EnumRaycastFilterTypeBlacklist = Enum.RaycastFilterType.Blacklist
 local Raycast = Workspace.Raycast
 local GetPlayers = Players.GetPlayers
@@ -38,7 +38,7 @@ getgenv().Aiming = {
     Enabled = true,
 
     ShowFOV = false,
-    FOV = 15,
+    FOV = 13,
     FOVSides = 300,
     FOVColour = Color3fromRGB(255, 0, 0),
 
